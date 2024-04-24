@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("Img/mountains-7884039_1920.jpg");
+}
+.home{
+    width: 65vw;
+    display: block;
+    margin: auto;
+}
+
+nav{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: .75rem;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    font-weight: 100;
+}
+
+.nav-btn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.desc-box{
+    margin-top: 50px 0;
+    width: 30vw;
+}
+
+.desc-title{
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+
+.desc{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.box{
+    margin: 18px 0;
+}
+
+.serv-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.services{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 0;
+    margin: 7px 10px;
+    width: 31vw;
+    font-weight: 600;
+    font-size: .9rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 4px;
+}
+
+.serv-img{
+    height: 30px;
+    margin: 1px 15px;
+}
